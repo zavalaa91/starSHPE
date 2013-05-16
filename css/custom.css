@@ -1,0 +1,90 @@
+.nav {
+	text-align: center;
+}
+
+.nav > li > a {
+	display: block;
+}
+
+.navbar p {
+	font-size: .75em;
+}
+
+.header ul.nav li a {
+	padding: 30px 20px 10px 20px;
+	text-shadow: none;
+}
+
+.header ul.nav li.current-page a {
+	padding-top: 25px;
+	border-top: 5px solid rgb(255, 194, 73);
+	background-color: #f8f8f8;
+}
+
+.navbar .nav > li:hover {
+	background-color: rgb(255, 194, 73);
+	color: #EEEEEE;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	/* Safari */
+	-webkit-transition-property:background-color;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:linear;
+	/* Firefox */
+	-moz-transition-property:background-color;
+	-moz-transition-duration:0.5s;
+	-moz-transition-timing-function:linear;
+}
+
+.navbar .nav > li {
+	transition-property: background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	/* Safari */
+	-webkit-transition-property:background-color;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:linear;
+	/* Firefox */
+	-moz-transition-property:background-color;
+	-moz-transition-duration:0.5s;
+	-moz-transition-timing-function:linear;
+}
+
+.current-page:hover {
+	background-color: rgb(255, 194, 73) !important;
+	color: #EEEEEE;	
+}
+
+#carousel-container {
+	margin: 15px;
+	padding: 15px;
+}
+
+.social {
+	margin-right: 5px;
+	padding: 5px;
+	background-color: #9d9d9d;
+	border: 2px solid #ffffff;
+}
+
+.social-container {
+	margin-top: 15px;
+}
+
+footer, section {
+	background-image: url('../img/ticks.png');
+	-moz-box-shadow: inset 0 0 5px 5px #CCCCCC;
+	-webkit-box-shadow: inset 0 0 5px 5px #CCCCCC;
+	box-shadow: inset 0 0 5px 5px #CCCCCC;
+}
+
+.footnote {
+	border-top: dashed #CCCCCC 1px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.row {
+	margin-bottom: 10px;
+}
