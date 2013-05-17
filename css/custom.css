@@ -88,3 +88,124 @@ footer, section {
 .row {
 	margin-bottom: 10px;
 }
+
+/* ribbon style */
+/* ribbon styles credit to Craig Buckler from http://www.sitepoint.com/pure-css3-ribbons/*/
+
+.ribbon-green {
+	position: relative;
+	width: 25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 70px;
+	margin: 30px 10px 10px -70px;
+	color: #555;
+	background-color: #51A351;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.ribbon-green:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #438943 #438943 transparent transparent;
+}
+
+.ribbon-green:before {
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 0;
+	right: -40px;
+	top: 1px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent transparent #51A351;
+}
+
+.ribbon-orange {
+	position: relative;
+	width: 25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 70px;
+	/*margin: 30px 10px 10px -70px;*/
+	margin-left: -20px;
+	color: #555;
+	background-color: #EA7125;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.ribbon-orange:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #ce6625 #ce6625 transparent transparent;
+}
+
+.ribbon-orange:before {
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 0;
+	right: -40px;
+	top: 1px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent transparent #EA7125;
+}
+
+.ribbon-blue {
+	position: relative;
+	width: 20%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 70px;
+	margin: 30px 10px 10px -70px;
+	color: #555;
+	background-color: #3482D6;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.ribbon-blue:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #004CCC #004CCC transparent transparent;
+}
+
+.ribbon-blue:before {
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 0;
+	right: -40px;
+	top: 1px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent transparent #3482D6;
+}
