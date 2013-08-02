@@ -21,6 +21,50 @@
 	border-bottom: 1px solid #ddd;
 }
 
+/*eventually take top and left attributes out and do direct styling on which ever div used on*/
+
+.triangle-down-white {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #ffffff transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #007bff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	position: relative;
+	top: 95px;
+	left: 656px;
+}
+
+.triangle-down-blue {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #0A1C26 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #007bff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	position: relative;
+	top: 15px;
+	left: 656px;
+}
+
+.triangle-down-grey {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #f2f2f2 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #007bff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	position: relative;
+	top: 35px;
+	left: 656px;
+}
+
 /*end class utilities*/
 
 /*start header design*/
@@ -38,6 +82,7 @@
 	border-left: 1px solid #ddd;
 	margin-right: -5px;
 	display: inline-block;
+	padding-top: 38px;
 }
 
 .side-widgets .email-rss h4 {
@@ -47,7 +92,7 @@
 .widget {
 	background-color: white;
 	border: 1px solid #ddd;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .widget h4{
@@ -132,6 +177,11 @@ footer {
 	padding-top: 15px;
 }
 
+.footer-logo {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 .get-connected {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -139,32 +189,8 @@ footer {
 	color: whitesmoke;
 }
 
-.triangle-down-blue {
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 15px 15px 0 15px;
-	border-color: #0A1C26 transparent transparent transparent;
-	line-height: 0px;
-	_border-color: #007bff #000000 #000000 #000000;
-	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
-	position: relative;
-	top: 75px;
-	left: 650px;
-}
-
-.triangle-down-grey {
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 15px 15px 0 15px;
-	border-color: #f2f2f2 transparent transparent transparent;
-	line-height: 0px;
-	_border-color: #007bff #000000 #000000 #000000;
-	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
-	position: relative;
-	top: 612px;
-	left: 650px;
+.get-connected {
+	padding-top: 15px;
 }
 
 .mainheader .nav {
@@ -210,7 +236,7 @@ footer {
 }
 
 .sponsors {
-	margin-top: 20px;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
 
