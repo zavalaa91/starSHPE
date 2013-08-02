@@ -1,3 +1,29 @@
+/*start class utilities*/
+.no-margin-bottom {
+	margin-bottom: 0px !important;
+}
+
+.no-margin-top {
+	margin-top: 0px !important;
+}
+
+.grey-accent {
+	background: #f2f2f2;
+}
+
+.white-accent {
+	background: white;
+}
+
+.border {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+/*end class utilities*/
+
+/*start header design*/
 .navbar-inner {
 	background: white;
 	box-shadow: none;
@@ -5,6 +31,48 @@
 	-moz-box-shadow: none;
 	border: none;
 }
+/*end header design*/
+
+/*start widgets design*/
+.side-widgets {
+	border-left: 1px solid #ddd;
+	margin-right: -5px;
+	display: inline-block;
+}
+
+.side-widgets .email-rss h4 {
+	display: inline;
+}
+
+.widget {
+	background-color: white;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.widget h4{
+	color: white;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+.widget button{
+	margin-bottom: 10px;
+}
+/*start email/rss widget*/
+/*end email/rss widget*/
+
+
+/*start donate widget*/
+
+
+/*end donate widget*/
+
+/*start socialize widget*/
+
+/*end socialize widget*/
+
+/*end widgets design*/
 
 .pitch {
 	background: #34495e;
@@ -20,10 +88,6 @@
 	padding-bottom: 40px;
 }
 
-.grey-accent {
-	background: #F5F5F5;
-}
-
 .pitch-white {
 	background: white;
 	color: #888888;
@@ -31,20 +95,87 @@
 	padding-bottom: 80px;
 }
 
-footer {
-	color: whitesmoke;
-	background: #34495e;
+.main-info {
+	display: inline-block;
 }
 
-.navbar .nav {
+hr {
+	border-color: #ddd;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main-info-nav {
+	margin-bottom: 0px !important;
+}
+
+/*thanks vladimir starkov from stackoverflow for this*/
+.pagination {
+	width: 275px;
+    height: 35px;
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+footer {
+	color: white;
+	background: #0a1c26;
+	padding-top: 15px;
+}
+
+.get-connected {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #0a1c26;
+	color: whitesmoke;
+}
+
+.triangle-down-blue {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #0A1C26 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #007bff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	position: relative;
+	top: 75px;
+	left: 650px;
+}
+
+.triangle-down-grey {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #f2f2f2 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #007bff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	position: relative;
+	top: 612px;
+	left: 650px;
+}
+
+.mainheader .nav {
 	margin: 10px 5px;
 }
 
-.navbar {
+.mainheader {
 	margin-bottom: 0px;
 }
 
-.nav li {
+.mainheader .nav li {
 	border-top: 2px solid white;
 	transition-property: border-top;
 	transition-duration: 0.15s;
@@ -59,7 +190,7 @@ footer {
 	-moz-transition-timing-function:linear;
 }
 
-.nav li:hover {
+.mainheader .nav li:hover {
 	border-top: 2px solid #3da1ef;
 	transition-property: background-top;
 	transition-duration: 0.15s;
@@ -76,6 +207,11 @@ footer {
 
 .pitch .hero-unit {
 	background: inherit;
+}
+
+.sponsors {
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
 
 /* Social styling */

@@ -32,7 +32,7 @@
       </a>-->
 
   <body>
-    <header class="navbar">
+    <header class="navbar mainheader">
           <div class="navbar-inner">
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                   <span class="icon-bar"></span>
@@ -115,34 +115,162 @@
         </div>
       </div>
     </section>
+    <section class="get-connected">
+    <div class="triangle-down-blue"></div>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1 class="text-center">Get Connected</h1>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="grey-accent">
+      <div class="triangle-down-grey"></div>
       <div class="container">
         <div class="row">
-          <div class="span12">
-            <h3 class="text-center">Maybe add a dividing statement here</h3>
+          <div class="span8 main-info">
+            <!-- nav will go here -->
+            <ul class="nav nav-tabs main-info-nav">
+              <li class="active">
+                <a href="#">Announcements</a>
+              </li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#"><i class="icon-plus"></i> Add</a></li>
+            </ul>
+            <div class="border">
+              <div class="media white-accent no-margin-top">
+                <a class="pull-left" href="#">
+                  <img class="media-object img-polaroid" data-src="/img/shpe-logo-transparent.png" src="/img/shpe-logo-transparent.png" height="150px" width="200px">
+                </a>
+                <div class="media-body">
+                  <h3 class="media-heading">Media heading</h3>
+                  <p><i>Date: 1/1/2013</i></p>
+                  <p>Here we will write a short description of the announcement.</p>
+                  <a href="#">Read more...</a>
+                </div>
+                <hr class="no-margin-bottom">
+              </div>
+              <div class="media white-accent no-margin-top">
+                <a class="pull-left" href="#">
+                  <img class="media-object img-polaroid" data-src="/img/shpe-logo-transparent.png" src="/img/shpe-logo-transparent.png" height="150px" width="200px">
+                </a>
+                <div class="media-body">
+                  <h3 class="media-heading">Media heading</h3>
+                  <p><i>Date: 1/1/2013</i></p>
+                  <p>Here we will write a short description of the announcement.</p>
+                  <a href="#">Read more...</a>
+                </div>
+                <hr class="no-margin-bottom">
+              </div>
+              <div class="media white-accent no-margin-top">
+                <a class="pull-left" href="#">
+                  <img class="media-object img-polaroid" data-src="/img/shpe-logo-transparent.png" src="/img/shpe-logo-transparent.png" height="150px" width="200px">
+                </a>
+                <div class="media-body">
+                  <h3 class="media-heading">Media heading</h3>
+                  <p><i>Date: 1/1/2013</i></p>
+                  <p>Here we will write a short description of the announcement.</p>
+                  <a href="#">Read more...</a>
+                </div>
+                <!-- choose this or pagination for article loading -->
+                <hr class="no-margin-bottom">
+                <a href="#">
+                  <div class="row">
+                    <h4 class="text-center">See more announcements</h4>
+                  </div>
+                </a>
+                <!-- <hr class="no-margin-top"> -->
+              </div>
+              <!-- we can choose pagination when we get db set up -->
+              <!-- <div class="pagination">
+                <ul>
+                  <li><a href="#">Prev</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+          <div class="span4 side-widgets">
+            <!-- start of email-rss widget -->
+              <!-- eventually I will want this to be a nav, for now they can be separate
+               will need to toggle divs based on whether email or rss tab is selected -->
+              <!-- <div class="email-rss-nav">
+                <h4><i class="icon-envelope"></i> Email</h4>
+                <h4><i class="icon-envelope"></i> RSS</h4>
+              </div> -->
+
+              
+            <div class="widget span4">
+              <h4 class="text-center btn-warning"><i class="icon-book"></i> Email Newsletter</h4>
+              <form id="email-register">
+                <fieldset>
+                  <label><i>Sign up for our newsletter!</i></label>
+                  <div class="input-append">
+                    <input class="span2" id="appendedInputButton" type="text" placeholder="example@email.com">
+                    <button class="btn btn-success" type="button">Subscribe!</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="widget span4">
+              <h4 class="text-center btn-warning"><i class="icon-book"></i> RSS</h4>
+              <div class="input-append">
+                <input class="span2" id="appendedInputButton" type="text" placeholder="copy to clipboard">
+                <button class="btn btn-success" type="button"><i class="icon-inbox"></i></button>
+              </div>
+            </div> 
+
+       <!--      <form>
+  <fieldset>
+    <legend>Legend</legend>
+    <label>Label name</label>
+    <input type="text" placeholder="Type something…">
+    <span class="help-block">Example block-level help text here.</span>
+    <label class="checkbox">
+      <input type="checkbox"> Check me out
+    </label>
+    <button type="submit" class="btn">Submit</button>
+  </fieldset>
+</form> -->
+            <!-- end of email-rss widget -->
+
+            <!-- start of donate widget -->
+            <div class="widget span4">
+              <h4 class="text-center btn-warning">Donate</h4>
+              <p><i>Feeling a little generous today? Donate to SHPE and help us grow!</i></p>
+              <button class="btn btn-primary span3" type="button"><i class="icon-inbox"></i> Bitcoin</button>
+              <button class="btn btn-warning span3" type="button"><i class="icon-inbox"></i> Paypal</button>
+              <button class="btn btn-success span3" type="button"><i class="icon-inbox"></i> Stripe</button>
+            </div> 
+            <!-- end of donate widget -->
+
+            <!-- start of socialize widget -->
+            <!-- TODO: add better social icons -->
+            <div class="widget span4">
+              <h4 class="text-center btn-warning">Social</h4>
+              <!-- fill this in with AddThis generated code -->
+              <div class="social-container">
+                <a href="#"><img src="img/picons40.png" class="social googleplus"></a>
+                <a href="#"><img src="img/picons03.png" class="social twitter"></a>
+                <a href="#"><img src="img/picons06.png" class="social facebook"></a>
+              </div>
+            </div>
+            <!-- end of socialize widget -->
           </div>
         </div>
       </div>
     </section>
-    <section class="pitch-white">
-      <div class="container">
-        <div class="row">
-          <div class="span6">
-            <h2>Title of blurb</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis, magna ac mollis lacinia, velit dui suscipit orci, in convallis sem nunc iaculis odio.</h3>
-            <button class="btn btn-info btn-large">Click here</button>
-          </div>
-          <div class="span6">
-            <img src="http://placehold.it/350x350" class="pull-right">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
+    <section class="sponsors">
       <div class="container">
         <div class="row">
           <div class="span12">
-            <h3 class="text-center">Thanks to our sponsors</h3>
+            <h1 class="text-center">Supported By</h1>
             <hr>
             <div class="row">
               <div class="span2">
@@ -183,7 +311,19 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="span3">
+          <a href="#" class="span2 offset5">
+            <img src="/img/icon-practice2.png" width="100px" height="100px">
+          </a>
+        </div>
+        <div class="row">
+          <a href="#" class="span2 offset1">About</a>
+          <a href="#" class="span2">Contact</a>
+          <a href="#" class="span2 offset2">Feedback</a>
+          <a href="#" class="span2">Partners</a>
+        </div>
+        <!-- below used to be the header info -->
+<!-- 
+<div class="span3">
             <h5>About SHPE</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis, magna ac mollis lacinia, velit dui suscipit orci, in convallis sem nunc iaculis odio. Sed ut laoreet justo. Suspendisse potenti. Aenean placerat condimentum elit eget aliquam. </p>
             <a href="#">Learn more...</a>
@@ -207,18 +347,10 @@
           </div>
           <div class="span3">
             <h5>Facebook Announcements</h3>
-            <!-- We will need to use the Facebook API to randomly generate this -->
-            <!-- <blockquote class="pull-right"> -->
               <p>SHPE|UIUC Visits A.O. Marshall was a huge success! Our fundraising efforts have been recognized on a district-wide level, and thanks to those who came, the strength of our chapter was felt and noted multiple times as well.</p> 
               <small>Cesar Martinez</small>
-            <!-- </blockquote> -->
-          </div>
-          <div class="span3 social-container">
-            <a href="#"><img src="img/picons40.png" class="social googleplus pull-right"></a>
-            <a href="#"><img src="img/picons03.png" class="social twitter pull-right"></a>
-            <a href="#"><img src="img/picons06.png" class="social facebook pull-right"></a>
-          </div>
-        </div>
+          </div> -->
+
         <div class="row footnote">
           <p class="text-center">Society of Hispanic Professional Engineers at the University of Illinois at Urbana-Champaign</p>
         </div>
