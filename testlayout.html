@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -230,22 +231,24 @@
 
               
             <div class="widget span4">
-              <h4 class="text-center btn-info"><i class="icon-book"></i> Email Newsletter</h4>
-              <form id="email-register">
-                <fieldset>
-                  <label><i>Sign up for our newsletter!</i></label>
-                  <div class="input-append">
-                    <input class="span2" id="appendedInputButton" type="text" placeholder="example@email.com">
-                    <button class="btn btn-success" type="button">Subscribe!</button>
-                  </div>
-                </fieldset>
-              </form>
+              <h4 class="text-center btn-info"><i class="icon-envelope"></i> Email Newsletter</h4>
+              <div class="widget-inside">
+                <form id="email-register" class="no-margin-bottom">
+                  <fieldset>
+                    <label><i>Sign up for our newsletter!</i></label>
+                    <div class="input-append">
+                      <input class="span2" id="appendedInputButton" type="text" placeholder="example@email.com">
+                      <button class="btn btn-success" type="button">Subscribe!</button>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
             </div>
             <div class="widget span4">
-              <h4 class="text-center btn-info"><i class="icon-book"></i> RSS</h4>
-              <div class="input-append">
+              <h4 class="text-center btn-info"><i class="icon-rss"></i> RSS</h4>
+              <div class="input-append widget-inside no-margin-bottom">
                 <input class="span2" id="appendedInputButton" type="text" placeholder="copy to clipboard">
-                <button class="btn btn-success" type="button"><i class="icon-inbox"></i></button>
+                <button class="btn btn-success" type="button"><i class="icon-copy"></i></button>
               </div>
             </div> 
 
@@ -264,12 +267,14 @@
             <!-- end of email-rss widget -->
 
             <!-- start of donate widget -->
-            <div class="widget span4">
+            <div class="widget span4 donate">
               <h4 class="text-center btn-info">Donate</h4>
-              <p><i>Feeling a little generous today? Donate to SHPE and help us grow!</i></p>
-              <button class="btn btn-primary span3" type="button"><i class="icon-inbox"></i> Bitcoin</button>
-              <button class="btn btn-info span3" type="button"><i class="icon-inbox"></i> Paypal</button>
-              <button class="btn btn-success span3" type="button"><i class="icon-inbox"></i> Stripe</button>
+              <div class="widget-inside">
+                <p><i>Feeling a little generous today? Donate to SHPE and help us grow!</i></p>
+                <button class="btn btn-primary" type="button">Bitcoin</button>
+                <button class="btn btn-info" type="button">Paypal</button>
+                <button class="btn btn-success" type="button">Stripe</button>
+              </div>
             </div> 
             <!-- end of donate widget -->
 
@@ -278,7 +283,7 @@
             <div class="widget span4">
               <h4 class="text-center btn-info">Social</h4>
               <!-- fill this in with AddThis generated code -->
-              <div class="social-container">
+              <div class="widget-inside socialize">
                 <a href="#"><img src="img/picons40.png" class="social googleplus"></a>
                 <a href="#"><img src="img/picons03.png" class="social twitter"></a>
                 <a href="#"><img src="img/picons06.png" class="social facebook"></a>
